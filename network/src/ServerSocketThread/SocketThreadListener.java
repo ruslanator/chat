@@ -4,6 +4,7 @@ import java.net.Socket;
 
 public interface SocketThreadListener {
 
+    
     void onSocketStart(SocketThread thread, Socket socket);
     void onSocketStop(SocketThread thread);
 
