@@ -3,6 +3,7 @@ package ServerSocketThread;
 import java.net.ServerSocket;
 import java.net.Socket;
 
+
 public interface ServerSocketThreadListener {
     void onServerStart(ServerSocketThread thread);
     void onServerStop(ServerSocketThread thread);

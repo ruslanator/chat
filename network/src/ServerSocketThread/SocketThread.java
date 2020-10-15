@@ -53,6 +53,7 @@ public class SocketThread extends Thread {
         }
     }
 
+
     public synchronized void close() {
         interrupt();
         try {
@@ -60,5 +61,6 @@ public class SocketThread extends Thread {
         } catch (IOException e) {
             listener.onSocketException(this, e);
         }
+
     }
 }

@@ -97,8 +97,6 @@ public class ClientGUI extends JFrame implements ActionListener, Thread.Uncaught
         }
     }
 
-
-
     private void connect() {
         try {
             Socket socket = new Socket(tfIPAddress.getText(), Integer.parseInt(tfPort.getText()));

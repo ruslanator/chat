@@ -13,9 +13,11 @@ public class ServerGUI extends JFrame implements ActionListener, Thread.Uncaught
     private static final int WIDTH = 200;
     private static final int HEIGHT = 100;
 
+
     private final ChatServer chatServer = new ChatServer();
     private final JButton btnStart = new JButton("Start");
     private final JButton btnStop = new JButton("Stop");
+
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(new Runnable() {
